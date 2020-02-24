@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Company Name: Industrial Cleaning Equipment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStarp4 files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--- -->
+    <link href="style.css" rel="stylesheet">
+    <link href="resp.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+
+  <div id="loader"></div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+     <div class="loader"></div>
+     <div class="main-container">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light nav-list ">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo" height="100px" width="180px">
+      </a>
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> -->
+     <!-- <span class="navbar-toggler-icon"></span> -->
+    <span class="icon-bar top-bar"></span>
+	<span class="icon-bar middle-bar"></span>
+	<span class="icon-bar bottom-bar"></span>
+ </button>
+
+
+  <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto nav-list">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="products.html">Products</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+    </ul>
+    <div class="whatsapp-image">
+      <a href="#">
+        <img class="whatsapp-image" src="images/whatsapp.png" alt="Whatsapp Logo" height="70px" width="210px">
+      </a>
+    </div>
+  </div>
+  </div>
+</nav>
+    </header>
+    <div class="s-media">
+    <a href="/" class="s-item whatsapp">
+    	<span class="fa fa-whatsapp" style="padding: 15px;"></span>
+    </a>
+    <a id="sm-close"  class="s-item print">
+        <span class="fa fa-arrow-left" style="padding: 15px; color: #d3edd5;"></span>
+    </a>
+
+ <a id="sm-open"  class="s-item print sm-collapse">
+        <span class="fa fa-arrow-right" style="padding: 15px; color: #d3edd5;"></span>
+    </a>
+     </div>
+     <section id="about-page">
+       <div class="container-fluid">
+           <h3 class="about-heading text-center">ABOUT US</h3>
+            <div class="row">
+           <div class="col-lg-6 col-sm-12 ">
+             <div class="about-content align-self-center">
+               <h4>Who Are We</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis ante ipsum. Donec sed tristique elit, ut euismod erat. Nullam massa risus, tristique at semper in, imperdiet nec magna. Quisque auctor rhoncus sagittis.
+                  Vestibulum non luctus quam. Praesent dictum commodo gravida. Proin lacinia porttitor dignissim. In urna enim, pretium vitae porta nec, consequat eget leo. Nunc sit amet dictum turpis. In dui justo, auctor sit amet viverra vitae,
+                   rhoncus id purus. Ut bibendum, erat sit amet ullamcorper mollis, ipsum ligula placerat nisi, volutpat euismod sem dui a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In sem augue, euismod id efficitur sed,
+                   dapibus nec dui. Nam vehicula dignissim quam, at molestie velit eleifend at. Donec venenatis odio ut ex dictum fringilla. In hac habitasse platea dictumst.
+               </p>
+           </div>
+         </div>
+           <div class="col-lg-6 p-0">
+            <img src="images/about.jpg" class="about-img img-fluid rounded">
+           </div>
+         </div>
+       </div>
+     </section>
+
+
+     <footer id="footer">
+       <div class="container">
+         <p class="text-center">Copyright © 2020. All Rights Reserved</p>
+       </div>
+     </footer>
+
+   </div>
+  </div>
+
+     <script>
+ var myVar;
+
+ function myFunction() {
+   myVar = setTimeout(showPage, 2000);
+ }
+
+ function showPage() {
+   document.getElementById("loader").style.display = "none";
+   document.getElementById("myDiv").style.display = "block";
+ }
+ var coll = document.getElementsByClassName("collapsible");
+ var i;
+
+ for (i = 0; i < coll.length; i++) {
+   coll[i].addEventListener("click", function() {
+     this.classList.toggle("active");
+     var content = this.nextElementSibling;
+     if (content.style.maxHeight){
+       content.style.maxHeight = null;
+     } else {
+       content.style.maxHeight = content.scrollHeight + "px";
+     }
+   });
+ }
+ </script>
+   </body>
+ </html>

@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+  .whatsapp-image
+  {
+    display: none ;
+  }
+  .nav-menu {
+    background-color: aqua;
+  }
+  .header-text {
+    font-size: 35px ;
+  }
+  .header-text-info {
+    font-size: 14px;
+  }
+  .whatsapp-image-header img {
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+
+  }
+  .s-media {
+  display: block;
+}
+.product-section-header h3 {
+  font-size: 16px;
+}
+.nav-list li  {
+  border-bottom: 1px solid #424245;
+}
+.nav-list a {
+  float: left;
+}
+.card-body {
+  opacity: 1;
+}
+.whyus-img{
+  display: none;
+}
+.side-bar{
+  display: none;
+}
+#collapesbar {
+  display: block;
+}
+#product-page {
+  display: none;
+}
+.about-img {
+display: none;
+}
+}
+@media only screen and (min-width: 768px) {
+  /* .whatsapp-image
+  {
+    display: none ;
+  } */
+  .nav-menu {
+    background-color: aqua;
+  }
+  .header-text {
+    font-size: 80px ;
+    top:30%;
+  }
+  .header-text-info {
+    font-size: 24px;
+  }
+  .whatsapp-image-header img {
+    width: 240px;
+    height: 75px;
+    border-radius: 15px;
+
+  }
+
+}
+@media only screen and (min-width: 992px) {
+.silde-image img{
+  height: 600px;
+
+}
+.header-text {
+  top:35%;
+}
+
+
+}
+@media only screen and (max-width: 991px) {
+
+.header-text-info {
+  top:43%;
+}
+.card-body {
+  opacity: 1;
+}
+.whyus-img{
+  display: none;
+}
+.nav-list li  {
+  border-bottom: 1px solid #424245;
+}
+.nav-list a {
+  float: left;
+}
+.s-media {
+display: block;
+}
+.whatsapp-image
+{
+  display: none ;
+}
+.side-bar{
+  display: none;
+}
+#collapesbar {
+  display: block;
+}
+#product-page {
+  display: none;
+}
+}
+
+/* Large Devices, Wide Screen */
+@media only screen and (min-width: 1200px) {
+  .silde-image {
+    height: 600px;
+  }
+
+}
+@media only screen and (max-width: 823px) {
+
+  .whatsapp-image {
+    display: none;
+  }
+  .s-media {
+  display: block;
+}
+.card-body {
+  opacity: 1;
+}
+.about-img {
+display: none;
+}
+}
+@media only screen and (max-width:576px) {
+  .card{
+    height: 300px ;
+    width: 300px ;
+    margin: auto ;
+    margin-bottom: 20px;
+  }
+  .card-body {
+    opacity: 1;
+  }
+  .product {
+    /* background: url("images/product.jpg") center top no-repeat fixed !important;
+    background-size: contain; */
+
+
+  }
+
+}

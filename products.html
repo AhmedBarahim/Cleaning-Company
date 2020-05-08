@@ -1,75 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>EKO Clean: Cleaning Solutions and Production of Liquid Detergents</title>
-    <link rel="icon" href="images/site-logo1.png">
     <meta charset="utf-8">
     <!-- BootStarp4 files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!--- -->
     <link href="style.css" rel="stylesheet">
     <link href="resp.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Indie+Flower|Titillium+Web:wght@700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="js/script.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" integrity="sha256-4Mm/ekC2BjkPlHJ3IBVXpObeuKasUnCtUqG8KpctjsM=" crossorigin="anonymous" />
   </head>
   <!-- Loading Page -->
   <body onload="myFunction()" style="margin:0;">
   <div id="loader"></div>
-  <div style="display:none;" id="myDiv" class="animate-bottom">
-    <div class="loader"></div>
-    <div class="main-container">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light nav-list ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo1.jpg" alt="logo" height="80px" width="200px">
-          </a>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <!-- <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> -->
-     <!-- <span class="navbar-toggler-icon"></span> -->
-          <span class="icon-bar top-bar"></span>
-      	 <span class="icon-bar middle-bar"></span>
-      	 <span class="icon-bar bottom-bar"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-          </ul>
-      <div class="whatsapp-image">
-        <a href="#">
-          <img class="whatsapp-image" src="images/whatsapp.png" alt="Whatsapp Logo" height="70px" width="210px">
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <div class="loader"></div>
+      <div class="main-container">
+        <header>
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light nav-list ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo1.jpg" alt="logo" height="80px" width="200px">
+              </a>
+              <!-- Collasible Navbar -->
+              <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+      	        <span class="icon-bar middle-bar"></span>
+      	        <span class="icon-bar bottom-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto nav-list">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" ria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-gb"> </span> English</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="my/index.html"><span class="flag-icon flag-icon-my" style="margin-right: 10px;"> </span>  Melayu</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="s-media">
+        <a href="/" class="s-item whatsapp">
+        	<span class="fa fa-whatsapp" style="padding: 15px;"></span>
         </a>
-      </div>
-    </div>
-      </div>
-    </nav>
-</header>
-    <div class="s-media">
-    <a href="/" class="s-item whatsapp">
-    	<span class="fa fa-whatsapp" style="padding: 15px;"></span>
-    </a>
-    <a id="sm-close"  class="s-item print">
-        <span class="fa fa-arrow-left" style="padding: 15px; color: #d3edd5;"></span>
-    </a>
-
- <a id="sm-open"  class="s-item print sm-collapse">
-        <span class="fa fa-arrow-right" style="padding: 15px; color: #d3edd5;"></span>
-    </a>
-     </div>
+        <a id="sm-close"  class="s-item print">
+            <span class="fa fa-arrow-left" style="padding: 15px; color: #d3edd5;"></span>
+        </a>
+        <a id="sm-open"  class="s-item print sm-collapse">
+            <span class="fa fa-arrow-right" style="padding: 15px; color: #d3edd5;"></span>
+        </a>
+         </div>
      <div id="product-page">
      <div class="product-page-bg">
        <h3 class="text-center">PRODUCTS</h3>
@@ -78,33 +85,30 @@
      <section id="product-bg" class="product-bg">
      <div class="container-fluid">
        <div class="row">
-         <div class="col-lg-2 col-sm-12 p-0 sticky-top">
+         <div class="col-lg-2 col-sm-12 p-0 sticky-top zIndex">
            <div id="collapesbar">
              <button class="collapsible text-center">PRODUCTS</button>
-  <div class="content px-0">
-    <div class="nav flex-column nav-pills" aria-orientation="vertical">
-      <a class="nav-link" href="products/materials.html">Materials</a>
-      <a class="nav-link" href="products/equipments&machines.html">Equipments & Machines</a>
-      <a class="nav-link" href="products/papers.html">Papers</a>
-      <a class="nav-link" href="products/sundries.html">Sundries</a>
-      <a class="nav-link active" href="products.html">All Products</a>
-    </div>
-  </div>
-
-</div>
-        <div class="side-bar sticky-top">
-         <div class="nav flex-column nav-pills" aria-orientation="vertical">
-           <a class="nav-link" href="products/materials.html">Materials</a>
-           <a class="nav-link" href="products/equipments&machines.html">Equipments & Machines</a>
-           <a class="nav-link" href="products/papers.html">Papers</a>
-           <a class="nav-link" href="products/sundries.html">Sundries</a>
-           <a class="nav-link active" href="products.html">All Products</a>
+             <div class="content px-0">
+               <div class="nav flex-column nav-pills" aria-orientation="vertical">
+                 <a class="nav-link" href="products/materials.html">Materials</a>
+                 <a class="nav-link" href="products/equipments&machines.html">Equipments & Machines</a>
+                 <a class="nav-link" href="products/papers.html">Papers</a>
+                 <a class="nav-link" href="products/sundries.html">Sundries</a>
+                 <a class="nav-link active" href="products.html">All Products</a>
+               </div>
+             </div>
+           </div>
+           <div class="side-bar sticky-top">
+             <div class="nav flex-column nav-pills" aria-orientation="vertical">
+               <a class="nav-link" href="products/materials.html">Materials</a>
+               <a class="nav-link" href="products/equipments&machines.html">Equipments & Machines</a>
+               <a class="nav-link" href="products/papers.html">Papers</a>
+               <a class="nav-link" href="products/sundries.html">Sundries</a>
+               <a class="nav-link active" href="products.html">All Products</a>
          </div>
     </div>
   </div>
   <div class="col-lg" style="margin-bottom: 80px;">
-    <!-- <div class="tab-content" id="v-pills-tabContent"> -->
-      <!-- <div class="tab-pane fade show active " id="v-pills-product" role="tabpanel" aria-labelledby="v-pills-product-tab"> -->
         <div class="row" style="padding-top : 40px;">
           <div class="col-md-3">
             <div class="cards">
@@ -147,80 +151,51 @@
 
 
 <footer id="footer">
-  <!-- Footer -->
-<div class="page-footer font-small mdb-color ">
-
-<!-- Footer Links -->
-<div class="container text-center text-md-left">
-
-<!-- Footer links -->
-<div class="row text-center text-md-left mt-3 pb-3">
-
-  <!-- Grid column -->
-  <div class="col-md mx-auto mt-3">
-    <h4 class="text-uppercase mb-4 font-weight-bold">EKO Clean</h4>
-    <p>A company which specializes in providing the cleaning solutions and production of liquid detergents suhc as Cleaning agents, Liquid detergents, cleaning agents, Washing up liquids, All purpose cleaners, Laundry detergents, mild detergents, Fabric detergent and softening and Special cleaning agents.
-    </p>
-  </div>
-  <!-- Grid column -->
-
-  <hr class="w-100 clearfix d-md-none">
-
-  <!-- Grid column -->
-  <!-- <div class="col-md mx-auto mt-3">
-    <h4 class="text-uppercase mb-4 font-weight-bold">Products</h4>
-    <p>
-      <a href="products/materials.html">Materials</a>
-    </p>
-    <p>
-      <a href="products/equipments&machines.html">Equipments & Machines</a>
-    </p>
-    <p>
-      <a href="products/papers.html">Papers</a>
-    </p>
-    <p>
-      <a href="products/sundries.html">Sundries</a>
-    </p>
-  </div> -->
-
-
-  <!-- Grid column -->
-  <hr class="w-100 clearfix d-md-none">
-
-  <!-- Grid column -->
-  <div class="col-md mx-auto mt-3">
-    <h4 class="text-uppercase mb-4 font-weight-bold" id="Contact">Contact</h4>
-     <p>
-      <i class="fa fa-map-marker" aria-hidden="true"></i>   F-2-8 Pusat Komersial Starparc Point, 62, Jalan 8/23e, Danau-Kota, 53300 Kuala Lumpur, Federal Territory of Kuala Lumpur</p>
-    <p>
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>   info@ekoclean.com.my</p>
-    <p>
-      <i class="fa fa-phone" aria-hidden="true"></i>    TEL: +60-348207616</p>
-    <p>
-      <i class="fa fa-fax" aria-hidden="true"></i>    FAX: +60-348207616</p>
-    <div class="social my-2">
-      <p>
-        <a class="facebook" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a class="instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a class="whatsapp-social" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-      </p>
+  <div class="page-footer font-small mdb-color ">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left mt-3 pb-3">
+        <div class="col-md mx-auto mt-3">
+          <h4 class="text-uppercase mb-4 font-weight-bold">EKO Clean</h4>
+          <p>A company which specializes in providing the cleaning solutions and production of liquid detergents
+            such as Cleaning agents, Liquid detergents, cleaning agents, Washing up liquids,
+             All purpose cleaners, Laundry detergents, mild detergents, Fabric detergent and softening and Special cleaning agents.
+          </p>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md mx-auto mt-3">
+          <h4 class="text-uppercase mb-4 font-weight-bold" id="Contact">Contact</h4>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>   F-2-8 Pusat Komersial Starparc Point, 62, Jalan 8/23e, Danau-Kota, 53300 Kuala Lumpur, Federal Territory of Kuala Lumpur
+          </p>
+          <p>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>   info@ekoclean.com.my
+          </p>
+          <p>
+              <i class="fa fa-phone" aria-hidden="true"></i>    TEL: +60-348207616
+          </p>
+          <p>
+              <i class="fa fa-fax" aria-hidden="true"></i>    FAX: +60-348207616
+          </p>
+        <div class="social my-2">
+          <p>
+            <a class="facebook" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a class="whatsapp-social" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </p>
+      </div>
     </div>
   </div>
-  <!-- Grid column -->
-
+    <div class="row mt-3 pb-3">
+      <div class="col text-center">
+        <a href="my/index.html" class="text-center">Melayu</a>
+      </div>
+    </div>
+    <hr>
+  </div>
 </div>
-<!-- Footer links -->
-
-<hr>
-
-
-</div>
-<!-- Footer Links -->
-
-</div>
-<!-- Footer -->
-    <p class="text-center"><b>Copyright © 2020. All Rights Reserved</b></p>
+<p class="text-center"><b>Copyright © 2020. All Rights Reserved</b></p>
 </footer>
+
    </div>
  </div>
 

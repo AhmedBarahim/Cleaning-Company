@@ -183,6 +183,12 @@ left:55%;
 #slogan h3 {
   font-size: 2rem;
 }
+.dropdown-menu {
+  border: none;
+}
+.zIndex {
+  z-index: 1;
+}
 }
 
 /* Large Devices, Wide Screen */

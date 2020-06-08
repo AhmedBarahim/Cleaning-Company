@@ -7,13 +7,16 @@
     background-color: aqua;
   }
   .hero h1 {
-        font-size: 2.5em  !important;
+        font-size: 3.6em  !important;
      }
   .hero h3 {
-      font-size: 14px ;
+      font-size: 22px ;
     }
   .header-text-info {
     font-size: 14px;
+  }
+  #aa {
+    left:38% !important;
   }
   .whatsapp-image-header img {
     width: 140px;
@@ -54,6 +57,9 @@
   display: block;
 }
 #product-page {
+  display: none;
+}
+#ekocare-page {
   display: none;
 }
 .about-img {
@@ -134,18 +140,33 @@ display: none;
   top:35%;
 }
 
+.nav-list {
+  font-size: 0.99em;
+}
+.nav-list a {
+    margin: 0;
+}
+}
 
+@media only screen and (min-width: 1250px) {
+  .nav-list {
+    font-size: 1.1em;
+
+  }
+  .nav-list a {
+    margin: 0px 0.4em;
+  }
 }
 @media only screen and (max-width: 991px) {
   .hero {
         width: max-content;
   }
-  .hero h1 {
+  /* .hero h1 {
         font-size: 4em ;
      }
   .hero h3 {
           font-size: 1em ;
-        }
+        } */
 .header-text-info {
   top:43%;
 }
@@ -158,8 +179,10 @@ display: none;
 .nav-list li  {
   border-bottom: 1px solid #424245;
 }
+
 .nav-list a {
   float: left;
+
 }
 .s-media {
 display: block;
@@ -177,6 +200,10 @@ display: block;
 #product-page {
   display: none;
 }
+#ekocare-page {
+  display: none;
+}
+
 #loader {
 left:55%;
 }
@@ -189,6 +216,9 @@ left:55%;
 .zIndex {
   z-index: 1;
 }
+.mx-content {
+  width: auto;
+}
 }
 
 /* Large Devices, Wide Screen */
@@ -197,7 +227,7 @@ left:55%;
     height: 600px;
   }
   .img-fluid {
-    height: 100%;
+    /* height: 100%; */
   }
 }
 @media only screen and (max-width: 823px) {
@@ -244,6 +274,12 @@ display: none;
   .card-body {
     opacity: 1;
   }
+  .hero h1 {
+        font-size: 2.3em  !important;
+     }
+  .hero h3 {
+      font-size: 11px ;
+    }
   .product {
     /* background: url("images/product.jpg") center top no-repeat fixed !important;
     background-size: contain; */

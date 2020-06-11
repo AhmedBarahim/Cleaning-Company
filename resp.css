@@ -151,11 +151,11 @@ display: none;
 
 @media only screen and (min-width: 1250px) {
   .nav-list {
-    font-size: 1.1em;
+    font-size: 1em;
 
   }
   .nav-list a {
-    margin: 0px 0.4em;
+    /* margin: 0px 0.4em; */
   }
 }
 @media only screen and (max-width: 991px) {
@@ -186,7 +186,7 @@ display: none;
 
 }
 .nav-list ul {
-    margin: 10px;
+    /* margin: 10px; */
 }
 .dropdown-submenu>a:after {
   content: "\f0d7";

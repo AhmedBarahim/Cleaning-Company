@@ -143,9 +143,10 @@ display: none;
 .nav-list {
   font-size: 0.99em;
 }
-.nav-list a {
+/* .nav-list a {
     margin: 0;
-}
+} */
+
 }
 
 @media only screen and (min-width: 1250px) {
@@ -183,6 +184,12 @@ display: none;
 .nav-list a {
   float: left;
 
+}
+.nav-list ul {
+    margin: 10px;
+}
+.dropdown-submenu>a:after {
+  content: "\f0d7";
 }
 .s-media {
 display: block;

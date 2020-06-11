@@ -53,6 +53,24 @@ background: none;
   width: 180px;
 } */
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+  /* font-size: 11px; */
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  /* margin-top: 0px;
+  margin-left: 0px; */
+}
 
 .icon-bar {
 	width: 26px;
@@ -784,7 +802,6 @@ width:400px;
 
 .collapsible .active, .collapsible:hover {
   background-color: #555;
-\
 }
 
 .collapsible:after {

@@ -36,7 +36,7 @@ body {
 .nav-list a  {
     font-weight: bold;
     line-height: 22px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-style: normal;
     color : #000000 !important;
     /* margin: 0px 0.4em; */
@@ -581,7 +581,7 @@ margin-bottom: 0px;
 /*-----------Footer ------ */
 
 #footer  {
-  background: #565656 !important;
+  background: #233f9b !important;
 
   color: #FFFFFF;
   padding: 10px;

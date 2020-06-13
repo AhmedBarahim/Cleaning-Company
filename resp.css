@@ -141,7 +141,14 @@ display: none;
 }
 
 .nav-list {
-  font-size: 0.99em;
+  font-size: 0.9em;
+}
+.dropdown-item {
+  font-size: 0.9em;
+}
+.navbar-brand img {
+  width:170px;
+  height: 70px;
 }
 /* .nav-list a {
     margin: 0;
@@ -186,7 +193,7 @@ display: none;
 
 }
 .nav-list ul {
-    /* margin: 10px; */
+    margin: 10px;
 }
 .dropdown-submenu>a:after {
   content: "\f0d7";
